@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/body_bg1.png);
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.nk-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nk-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nk-card {
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    background-image: url(./img/hero_bg.png);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nk-card__logo {
+    position: absolute;
+    left: 1;
+    top: 1;
+}
+
+.nk-card__photo {
+    max-width: 330px;
+    max-height: 160px;
+    margin-top: 15%;
+}
+
+.nk-card__info {
+    max-height: 250px;
+    max-width: 230px;
+    margin-left: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+}
+
+.nk-card__info p {
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color: #5F6671;
+}
+
+input {
+    display: inline-block;
+    width: 30%;
+    background-color: #152335;
+    border: 1px solid #626873;
+    color: #626873;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.nk-card__button {
+    width: 70%;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #152335;
+    border: 1px solid #626873;
+    color: #626873;
+}
+
+.nk-card__choise {
+    width: 55%;
+    height: 50px;
+    margin: 40px auto 0;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    max-width: 12px;
+    max-height: 12px;
+}
+
+.selected {
+    max-width: 14px;
+    max-height: 14px;
+    border: 1px solid #626873;
+    background-color: #293550;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.blue {
+    background-color: turquoise;
+}
